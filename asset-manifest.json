@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Magdishere/Optimist_Website/static/css/main.d1bd9951.css",
-    "main.js": "/Magdishere/Optimist_Website/static/js/main.bb05a163.js",
-    "index.html": "/Magdishere/Optimist_Website/index.html",
-    "main.d1bd9951.css.map": "/Magdishere/Optimist_Website/static/css/main.d1bd9951.css.map",
-    "main.bb05a163.js.map": "/Magdishere/Optimist_Website/static/js/main.bb05a163.js.map"
+    "main.css": "/Optimist_Website/static/css/main.d1bd9951.css",
+    "main.js": "/Optimist_Website/static/js/main.bb05a163.js",
+    "index.html": "/Optimist_Website/index.html",
+    "main.d1bd9951.css.map": "/Optimist_Website/static/css/main.d1bd9951.css.map",
+    "main.bb05a163.js.map": "/Optimist_Website/static/js/main.bb05a163.js.map"
   },
   "entrypoints": [
     "static/css/main.d1bd9951.css",
