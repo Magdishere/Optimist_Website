@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/optimist-website/static/css/main.d1bd9951.css",
-    "main.js": "/optimist-website/static/js/main.7b703ba1.js",
+    "main.js": "/optimist-website/static/js/main.bb05a163.js",
     "index.html": "/optimist-website/index.html",
     "main.d1bd9951.css.map": "/optimist-website/static/css/main.d1bd9951.css.map",
-    "main.7b703ba1.js.map": "/optimist-website/static/js/main.7b703ba1.js.map"
+    "main.bb05a163.js.map": "/optimist-website/static/js/main.bb05a163.js.map"
   },
   "entrypoints": [
     "static/css/main.d1bd9951.css",
-    "static/js/main.7b703ba1.js"
+    "static/js/main.bb05a163.js"
   ]
 }
