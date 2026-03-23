@@ -34,11 +34,15 @@ messaging.onBackgroundMessage((payload) => {
 // Handle notification click
 self.onnotificationclick = (event) => {
   event.notification.close();
-  const orderId = event.notification.data?.orderId;
-  const urlToOpen = orderId ? `/orders/${orderId}` : '/';
+  
+  // Get the sub-path from the current location (e.g., /Optimist_Website/)
+  const fullPath = self.location.pathname;
+  const subPath = fullPath.substring(0, fullPath.lastIndexOf('/') + 1);
+  
+  const urlToOpen = `${self.location.origin}${subPath}#/orders`;
 
   event.waitUntil(
-    clients.matchAll({ type: 'window' }).then((windowClients) => {
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then((windowClients) => {
       for (var i = 0; i < windowClients.length; i++) {
         var client = windowClients[i];
         if (client.url === urlToOpen && 'focus' in client) {
