@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Optimist_Website/static/css/main.1368e546.css",
-    "main.js": "/Optimist_Website/static/js/main.291b5a10.js",
+    "main.css": "/Optimist_Website/static/css/main.927fe58f.css",
+    "main.js": "/Optimist_Website/static/js/main.eadbd5e3.js",
     "index.html": "/Optimist_Website/index.html",
-    "main.1368e546.css.map": "/Optimist_Website/static/css/main.1368e546.css.map",
-    "main.291b5a10.js.map": "/Optimist_Website/static/js/main.291b5a10.js.map"
+    "main.927fe58f.css.map": "/Optimist_Website/static/css/main.927fe58f.css.map",
+    "main.eadbd5e3.js.map": "/Optimist_Website/static/js/main.eadbd5e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1368e546.css",
-    "static/js/main.291b5a10.js"
+    "static/css/main.927fe58f.css",
+    "static/js/main.eadbd5e3.js"
   ]
 }
